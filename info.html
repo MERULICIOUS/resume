@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" class="loaded">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Information</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Center content beautifully on the page */
+        .info-container {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #0f172a; /* Custom dark sleek background */
+            padding: 20px;
+        }
+        .info-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 16px;
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        .info-card h1 {
+            color: #ffffff;
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+        .info-card p {
+            color: #a4a6b0;
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .btn-resume {
+            display: inline-block;
+            background-color: #3a6cf4;
+            color: #ffffff;
+            padding: 12px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(58, 108, 244, 0.4);
+        }
+        .btn-resume:hover {
+            background-color: #2a56c6;
+            transform: translateY(-3px);
+        }
+        .back-home {
+            display: block;
+            margin-top: 20px;
+            color: #64748b;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.2s;
+        }
+        .back-home:hover {
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="info-container">
+        <div class="info-card">
+            <h1>Personal Information</h1>
+            <p>Welcome! Click below to view my comprehensive interactive profile, portfolio items, and career background detail overview online.</p>
+            
+            <a href="https://merulicious.github.io/resume/" target="_blank" class="btn-resume">
+                <i class="fas fa-external-link-alt" style="margin-right: 8px;"></i> View Full Resume
+            </a>
+
+            <a href="index.html" class="back-home"><i class="fas fa-arrow-left"></i> Back to Main Page</a>
+        </div>
+    </div>
+
+</body>
+</html>
